@@ -1,0 +1,310 @@
+/* laptop */
+@media screen and (min-width:1081px) {
+
+    body{
+        background-image: url(bg.jpg);
+        background-size: cover;
+        color: aliceblue;
+        font-family: 'Comic Neue', cursive;
+        font-size: medium;
+    }
+}
+
+h1 {
+    text-align: center;
+}
+
+.marquee {
+    border-bottom: 2px solid aliceblue;
+    margin-bottom: 2%;
+}
+
+.klik {
+    display: block;
+    text-align: center;
+    
+
+}
+
+.klik button{
+    background-color: #35546d63;
+    color: aliceblue;
+    margin-bottom: 2%;
+    border-radius: 20px;
+    padding: 10px 40px;
+}
+
+audio {
+    width: 230px;
+    height: 30px;
+}
+
+.jadwal {
+    border: 2px dashed aliceblue;
+    background-color: #2b435772;
+    display: block;
+    width: 800px;
+    margin-bottom: 2%;
+}
+
+table{
+    background-color: #2b4357;
+}
+
+h3{
+    text-align: center;
+}
+  
+#list-siswa {
+    border: 2px dashed aliceblue;
+    background-color: #2b435772;
+    width: 1170px;
+    height: 300px;
+    margin-bottom: 2%;
+}
+
+#list-siswa div {
+    display: inline-block;
+    border: 2px solid; 
+    background-color: #0c3756;
+    width: 215px;
+    height: 170px;
+    text-align: left;
+}
+
+.jadwal-piket {
+    border: 2px dashed aliceblue;
+    background-color: #2b435772;
+    display: block;
+    height: 330px;
+    width: 1000px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+}
+
+#piket div {
+    border: 2px solid aliceblue;
+    background-color: #1F5372;
+    display: inline-block;
+    text-align: left;
+    width: 180px;
+    height: 180px;
+}
+
+h4 {
+    text-align: center;
+    border-bottom: 2px solid aliceblue;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+
+h2{
+    text-align: center;
+   
+   
+
+}
+
+.video {
+    border: 2px dashed aliceblue;
+    background-color: #2b435772;
+    width: 1000px;
+    margin-bottom: 2%;
+}
+
+#kumpulan div {
+    display: inline-block;
+    
+}
+
+#kumpulan div video {
+    border: 3px solid aliceblue;
+    width: 430px;
+    height: 242px;
+    text-align: center;
+}
+
+.foto {
+    border: 2px dashed aliceblue;
+    background-color: #2b435772;
+    width: 1000px;
+    height: 350px;
+    
+}
+
+#fotkum div {
+    display: inline-block;
+    
+}
+
+#fotkum div img {
+    border: 3px solid aliceblue;
+    width: 430px;
+    height: 242px;
+    
+}
+
+/* tablet */
+
+@media screen and (min-width:767px) and (max-width:1080px) {
+
+    body{
+        background-image: url(bgtab.jpg);
+        background-size: cover;
+        color: aliceblue;
+        font-family: 'Comic Neue', cursive;
+    }
+
+    
+
+    .jadwal {
+        border: 2px dashed aliceblue;
+        background-color: #6200c359;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 700px;
+        margin-bottom: 2%;
+    }
+
+    table{
+        background-color: #3C096C;
+        
+    }
+
+    #list-siswa {
+        border: 2px dashed aliceblue;
+        background-color: #6200c359;
+        width: 700px;
+        height: 480px;
+        margin-bottom: 2%;
+        padding-left: 1%;
+    }
+    
+    #list-siswa div {
+        border: 2px solid aliceblue; 
+        background-color: #5A189A;
+        display: inline-block;
+        width: 215px;
+        height: 170px;
+        margin-right: 1%;
+        margin-bottom: 13px;
+    }
+
+    .jadwal-piket {
+        border: 2px dashed aliceblue;
+        background-color: #6200c359;
+        width: 700px;  
+        height: 540px;
+          
+    }
+
+    #piket div {
+        background-color: #7B2CBF;
+        display: inline-block;
+        border: 2px solid; 
+        width: 180px;
+        height: 200px;
+        margin-right: 1%;
+        margin-bottom: 13px;
+    }
+
+    .video {
+        border: 2px dashed aliceblue;
+        background-color: #6200c359;
+        width: 80%;
+        margin-bottom: 2%;
+    }
+
+    .foto {
+        border: 2px dashed aliceblue;
+        background-color: #6200c359;
+        width: 80%;
+        height: 90%;
+        border-bottom: 2%;
+    }
+
+    #fotkum div img {
+        margin-bottom: 2%;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 766px) {
+    body{
+        background-image: url(bgphone.jpg);
+        color: aliceblue;
+        font-family: 'Comic Neue', cursive;
+    }
+
+    .klik button{
+        background-color: #742f4c6c;
+    }
+
+    .jadwal {
+        background-color: #742f4c6c;
+        display: block;
+        width: 300px;
+        height: 240px;
+        margin-bottom: 2%;
+    }
+
+    table {
+        background-color: #8E425C;
+    }
+
+    #list-siswa {
+       background-color: #742f4c6c;
+       width: 300px;
+       height:985px;
+       margin-bottom: 2%;
+    }
+    
+    #list-siswa div {
+        background-color: #B66878;
+        display: block;
+        height: auto; 
+        width: 210px;
+        margin-top: 4%;  
+}
+
+    .jadwal-piket {
+        background-color: #742f4c6c;
+        width: 300px;
+        height: 1130px;
+    }
+
+    #piket div {
+        background-color: #C07180;
+        display: block;
+        height: 190px;
+        margin-top: 4%;
+
+    }
+
+
+    .video {
+        background-color: #742f4c6c;
+        width: 300px;
+        height: auto;
+    }
+
+    #kumpulan div video {
+        display: block;
+        width: 250px;
+        height: auto;
+    }
+
+    .foto {
+        background-color: #742f4c6c;
+        width: 300px;
+        height: auto;
+    }
+
+    #fotkum div img {
+        width: 250px;
+        height: auto;
+        margin-bottom: 2%;
+    }
+}
